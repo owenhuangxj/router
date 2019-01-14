@@ -1,9 +1,6 @@
-/**
- * Created by jiachenpan on 16/11/18.
- */
-
 export function isvalidUsername(str) {
   const valid_map = ['admin', 'editor']
+  /* Array.indexOf(el)查询el是否时数组中的元素，它返回el在数组中的下标*/
   return valid_map.indexOf(str.trim()) >= 0
 }
 
